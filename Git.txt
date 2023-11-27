@@ -101,6 +101,8 @@ git commit -a -m "add new vendor"
     //BASIC COMMANDS OF EVERYDAY - END
 
     6 => BELOW COMMANDS ARE FOR EXTENDED COMMANDS OF EVERYDAY GIT - START
+git push origin master
+        - Command to push our local changes to our origin project on GitHub.
 
     6 => BELOW COMMANDS ARE FOR EXTENDED COMMANDS OF EVERYDAY GIT - END
 
