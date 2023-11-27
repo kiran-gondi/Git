@@ -1,1 +1,31 @@
 
+Git Commnds -> Git Commands Description
+
+    1 => BELOW COMMANDS ARE FOR CONFIGURING A GIT - START
+git --version
+
+git config --global user.name "Will Smith" 
+      - Will apply the user.name to all the files/repos which are under the git VC. Used to configure the user name in the git.
+
+git config -- global user.email "will.smith@google.com"
+      - Will apply the user.email to all the files/repos which are under the git VC. Used to configure the user email in the git.
+
+NOTE: [--global] option will apply it for everything we do in the system. 
+        If we wan't to change this global setting wiht a different username or email address, but only for a specific project. You can run the same command but without the [--global] option when you're in the project.
+        This will overwrite your global settings but only within that project, and keep the global settings for everything else.
+
+git config --list 
+        - Will list all the settings git has at that point.
+
+git config user.name
+        - To Check only a specific setting in a git.
+    1 => BELOW COMMANDS ARE FOR CONFIGURING A GIT - END    
+
+
+
+
+
+
+
+
+
