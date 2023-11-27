@@ -62,6 +62,47 @@ git push -u origin master
         - We need to push our repository that is now pointing to our GITHUB repository.
     4 => BELOW COMMANDS ARE FOR PUSH A REPOSITORY TO A CODE HOSTING PROVIDER - END
 
+    //BASIC COMMANDS OF EVERYDAY GIT
+    5 => BELOW COMMANDS ARE FOR BASIC COMMANDS OF EVERYDAY GIT - START
+git status    
+        - Details the status of our repository. It shows the status of our project at the particular point of time.
+
+The stages of a Tracked File
+        1> Committed         2> Modified         3> Staged
+
+touch vendors.txt
+        - creates a new file in our git repository.
+
+git add vendors.txt
+        - To add a untracked file into our git for tracking.
+
+git add employees.txt
+        - To add a modified file into the STAGING area.
+
+git status -s OR git status --short
+        - Will display the git status in the short format.
+NOTE: 
+    M = Modified
+    A = New file added to the STAGING area
+    ?? = New file untracked by git
+
+git diff --staged    
+        - This command compares our staged changes to our last commit snapshot.
+
+git diff --staged --no-renames    
+        - This will tell to git ignore the similar files rename stuff.
+
+git diff
+        - This command will let us know if any local changes/modifications exists for our local working repository.
+
+git commit -a -m "add new vendor"
+        - This command will add the newly added/modified file and directly commmits the changes into our repository.
+    5 => BELOW COMMANDS ARE FOR BASIC COMMANDS OF EVERYDAY GIT - END
+    //BASIC COMMANDS OF EVERYDAY GIT
+
+    X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - START
+    X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - END
+
     X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - START
     X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - END
 
