@@ -31,11 +31,24 @@ git help config
     2 => BELOW COMMANDS ARE FOR GIT HELP - END
 
     3 => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - START
+cd desktop/cafe_recipes
+        - First we need to cd to the project directory/repository.
+git init
+        - Initilizes the new or empty git repository.
 
+cd .git
+        - If we need to go and see what is inside the .git repository of or newly initialized repository.
+
+ls 
+        - List all the files present inside the .git folder in our newly initialized git repository.
     3 => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - END
 
     4 => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - START
+
     4 => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - END
+
+    X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - START
+    X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - END
 
 
 
