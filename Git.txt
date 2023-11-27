@@ -22,7 +22,20 @@ git config user.name
     1 => BELOW COMMANDS ARE FOR CONFIGURING A GIT - END    
 
 
+    2 => BELOW COMMANDS ARE FOR GIT HELP - START
+man git 
+        - Will cover a complete git manual
 
+git help config
+        - Will takes you to config section in the git manual.
+    2 => BELOW COMMANDS ARE FOR GIT HELP - END
+
+    3 => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - START
+
+    3 => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - END
+
+    4 => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - START
+    4 => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - END
 
 
 
