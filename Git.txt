@@ -62,7 +62,7 @@ git push -u origin master
         - We need to push our repository that is now pointing to our GITHUB repository.
     4 => BELOW COMMANDS ARE FOR PUSH A REPOSITORY TO A CODE HOSTING PROVIDER - END
 
-    //BASIC COMMANDS OF EVERYDAY GIT
+    //BASIC COMMANDS OF EVERYDAY GIT - START
     5 => BELOW COMMANDS ARE FOR BASIC COMMANDS OF EVERYDAY GIT - START
 git status    
         - Details the status of our repository. It shows the status of our project at the particular point of time.
@@ -98,10 +98,11 @@ git diff
 git commit -a -m "add new vendor"
         - This command will add the newly added/modified file and directly commmits the changes into our repository.
     5 => BELOW COMMANDS ARE FOR BASIC COMMANDS OF EVERYDAY GIT - END
-    //BASIC COMMANDS OF EVERYDAY GIT
+    //BASIC COMMANDS OF EVERYDAY - END
 
-    X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - START
-    X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - END
+    6 => BELOW COMMANDS ARE FOR EXTENDED COMMANDS OF EVERYDAY GIT - START
+
+    6 => BELOW COMMANDS ARE FOR EXTENDED COMMANDS OF EVERYDAY GIT - END
 
     X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - START
     X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - END
