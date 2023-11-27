@@ -48,9 +48,19 @@ https://docs.github.com/en
 https://docs.github.com/en/get-started
 https://help.github.com/articles/which-remote-url-should-i-use
 
-    4 => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - START
+    4 => BELOW COMMANDS ARE FOR PUSH A REPOSITORY TO A CODE HOSTING PROVIDER - START
+git add .
+        - Will add the new files/changes to our STAGING area.
 
-    4 => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - END
+git commit -m "first dcommit"
+        - Adds a new commit message to our repository.
+
+git remote add origin "https://github.com/wired-brain-coffee/wired-brain-recipe.git"
+        - This command adds the origin GITHUB repository to our local repository by creating a link that allows us to push and pull changes between the two.
+
+git push -u origin master
+        - We need to push our repository that is now pointing to our GITHUB repository.
+    4 => BELOW COMMANDS ARE FOR PUSH A REPOSITORY TO A CODE HOSTING PROVIDER - END
 
     X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - START
     X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - END
