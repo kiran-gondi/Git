@@ -106,7 +106,63 @@ git push origin master
 
     6 => BELOW COMMANDS ARE FOR EXTENDED COMMANDS OF EVERYDAY GIT - END
 
+    7 => BELOW COMMANDS ARE FROM MEDIUM STORY - START
+Reference: https://medium.com/git-happy/navigating-git-branches-like-a-pro-the-git-branch-command-f190eb7eb7b6
+    # Let's create a new mapache branch!
+    git branch "new_mapache_branch"
+    
+    # Let's switch to (or "check out") our new branch.
+    git checkout "new_mapache_branch"
+
+    # Switch to the develop branch.
+    git checkout "develop"
+    
+    # Merge the mapache branch into develop.
+    git merge "new_mapache_branch"
+
+    # List all branches:
+    git branch
+    
+    # Rename a branch:
+    git branch -m "old_mapache_branch" "new_mapache_branch"
+    
+    # Delete a local mapache branch:
+    git branch -d "mapache_branch_to_delete"
+    
+    # Delete a remote mapache branch:
+    git branch -d -r "remote_mapache_branch_to_delete"
+
+    # Create a new branch and switch to it at the same time:
+    git checkout -b "another_mapache_branch"
+
+    # Fetch a remote branch from the origin server (remote repository)
+    git fetch origin "remote_mapache_branch"
+
+    # Checkout a remote branch as a local branch using a "tracking branch"
+    git checkout -b "local_mapache_branch" origin/"remote_mapache_branch"
+
+    # Push your local branch to origin (the remote repository)
+    git push origin "local_mapache_branch"
+
+    # As a "tracking branch" this will update origin/"remote_mapache_branch"
+
+    # prune branches
+    git fetch --prune
+
+    #I also want to share a “safe way to show the delete commands only for local branches merged into master with the last commit over a month ago”:
+
+    for k in $(git branch --format="%(refname:short)" --merged master); do 
+      if (($(git log -1 --since='1 month ago' -s $k|wc -l)==0)); then
+        echo git branch -d $k
+      fi
+    done
+
+    #Since the command only echos (prints to the screen) the git branch -d commands, it’s a safe way to preview the commands before running them.
+    #A commenter named Asaf Pinhassi pointed out that you can add -r to this command to list the remote branches, which is a good tip to add here!
+    7 => BELOW COMMANDS ARE FROM MEDIUM STORY - END
+
     X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - START
+
     X => BELOW COMMANDS ARE FOR INITIALIZE A NEW GIT REPOSITORY - END
 
 
